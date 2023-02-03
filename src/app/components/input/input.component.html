@@ -1,0 +1,19 @@
+<div class="password-check-box">
+    <h2> Check password strength </h2>
+    <form [formGroup]="form">
+      <div class="input-password-box">
+        <input type="password" formControlName="password">
+        <label>Password</label>
+      </div>
+    </form>
+  <app-level-of-password [levelOfPassword]="levelOfPassword">
+  </app-level-of-password>
+
+  <main class="password_check_result">
+    <div class="password_results_part">
+      <div class="regex_password_result">
+        <p> {{ checkPasswordMessage }} </p>
+      </div>
+    </div>
+  </main>
+</div>
