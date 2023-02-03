@@ -1,0 +1,12 @@
+@import "/src/styles";
+
+.app {
+  margin: auto;
+  width: 100%;
+  background: linear-gradient(315deg, $first-base-color 3%, $second-base-color 38%, $third-base-color 68%, $fourth-base-color 98%);
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

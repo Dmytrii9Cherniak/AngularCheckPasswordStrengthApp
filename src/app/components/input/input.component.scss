@@ -1,0 +1,70 @@
+@import "/src/styles";
+
+.password-check-box {
+  width: 450px;
+  padding: 40px;
+  background: $form-base-gray-color;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px $form-second-cray-base-color;
+  border-radius: 10px;
+}
+
+.password-check-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: $form-base-color;
+  text-align: center;
+}
+
+.password-check-box .input-password-box {
+  position: relative;
+}
+
+.password-check-box .input-password-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.password-check-box .input-password-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.password-check-box .input-password-box input:focus ~ label,
+.password-check-box .input-password-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: $blue-base-color;
+  font-size: 12px;
+}
+
+.password_check_result {
+  padding-top: 25px;
+  height: auto;
+  width: 100%;
+
+  .password_results_part {
+    height: auto;
+  }
+
+  .regex_password_result {
+    width: 100%;
+    background-color: $first-base-color;
+    padding: 15px;
+    border-radius: 15px;
+    color: $green-basic-color;
+  }
+}
+
