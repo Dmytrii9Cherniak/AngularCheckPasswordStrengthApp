@@ -1,8 +1,8 @@
-import {Component, OnDestroy, OnInit} from "@angular/core";
-import {FormBuilder, FormGroup} from "@angular/forms";
-import {Levels_of_password} from "../../enum/levels_of_password";
-import {CheckPasswordService} from "../../services/checkpassword.service";
-import {Subscription} from "rxjs";
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
+import { Levels_of_password } from '../../enum/levels_of_password';
+import { CheckPasswordService } from '../../services/checkpassword.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-input',

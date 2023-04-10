@@ -5,7 +5,7 @@ import {
   OnChanges,
   SimpleChanges
 } from '@angular/core';
-import {Levels_of_password} from "../../enum/levels_of_password";
+import { Levels_of_password } from '../../enum/levels_of_password';
 
 @Component({
   selector: 'app-level-of-password',
